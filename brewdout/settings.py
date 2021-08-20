@@ -11,21 +11,24 @@
 ***REMOVED***
 
 ***REMOVED***
-
 ***REMOVED***
-***REMOVED***
-
-
 ***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
-SECRET_KEY = 'django-insecure--bexps$5*502&zxxqc3t--(%ww048mif+3ior9%2p_9a8x@sb8'
+***REMOVED***
+
 
 ***REMOVED***
 ***REMOVED***
 
-ALLOWED_HOSTS = ['techdoutdev.pythonanywhere.com'***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
 
 
 ***REMOVED***
