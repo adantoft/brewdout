@@ -1,80 +1,80 @@
 /* TABLETS */
 
 @media (max-width: 1024px) {
-    [dir="rtl"***REMOVED*** .colMS {
+    [dir="rtl"] .colMS {
         margin-right: 0;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** #user-tools {
+    [dir="rtl"] #user-tools {
         text-align: right;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** #changelist .actions label {
+    [dir="rtl"] #changelist .actions label {
         padding-left: 10px;
         padding-right: 0;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** #changelist .actions select {
+    [dir="rtl"] #changelist .actions select {
         margin-left: 0;
         margin-right: 15px;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .change-list .filtered .results,
-    [dir="rtl"***REMOVED*** .change-list .filtered .paginator,
-    [dir="rtl"***REMOVED*** .filtered #toolbar,
-    [dir="rtl"***REMOVED*** .filtered div.xfull,
-    [dir="rtl"***REMOVED*** .filtered .actions,
-    [dir="rtl"***REMOVED*** #changelist-filter {
+    [dir="rtl"] .change-list .filtered .results,
+    [dir="rtl"] .change-list .filtered .paginator,
+    [dir="rtl"] .filtered #toolbar,
+    [dir="rtl"] .filtered div.xfull,
+    [dir="rtl"] .filtered .actions,
+    [dir="rtl"] #changelist-filter {
         margin-left: 0;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .inline-group ul.tools a.add,
-    [dir="rtl"***REMOVED*** .inline-group div.add-row a,
-    [dir="rtl"***REMOVED*** .inline-group .tabular tr.add-row td a {
+    [dir="rtl"] .inline-group ul.tools a.add,
+    [dir="rtl"] .inline-group div.add-row a,
+    [dir="rtl"] .inline-group .tabular tr.add-row td a {
         padding: 8px 26px 8px 10px;
         background-position: calc(100% - 8px) 9px;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .related-widget-wrapper-link + .selector {
+    [dir="rtl"] .related-widget-wrapper-link + .selector {
         margin-right: 0;
         margin-left: 15px;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .selector .selector-filter label {
+    [dir="rtl"] .selector .selector-filter label {
         margin-right: 0;
         margin-left: 8px;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .object-tools li {
+    [dir="rtl"] .object-tools li {
         float: right;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .object-tools li + li {
+    [dir="rtl"] .object-tools li + li {
         margin-left: 0;
         margin-right: 15px;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .dashboard .module table td a {
+    [dir="rtl"] .dashboard .module table td a {
         padding-left: 0;
         padding-right: 16px;
-***REMOVED***
-***REMOVED***
+    }
+}
 
 /* MOBILE */
 
 @media (max-width: 767px) {
-    [dir="rtl"***REMOVED*** .aligned .related-lookup,
-    [dir="rtl"***REMOVED*** .aligned .datetimeshortcuts {
+    [dir="rtl"] .aligned .related-lookup,
+    [dir="rtl"] .aligned .datetimeshortcuts {
         margin-left: 0;
         margin-right: 15px;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** .aligned ul {
+    [dir="rtl"] .aligned ul {
         margin-right: 0;
-***REMOVED***
+    }
 
-    [dir="rtl"***REMOVED*** #changelist-filter {
+    [dir="rtl"] #changelist-filter {
         margin-left: 0;
         margin-right: 0;
-***REMOVED***
-***REMOVED***
+    }
+}

@@ -7,5 +7,5 @@
         $(field.id).data('dependency_list', field.dependency_list).prepopulate(
             field.dependency_ids, field.maxLength, field.allowUnicode
         );
-***REMOVED***);
-***REMOVED***
+    });
+}

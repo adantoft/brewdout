@@ -55,7 +55,7 @@
   --object-tools-fg: var(--button-fg);
   --object-tools-bg: var(--close-button-bg);
   --object-tools-hover-bg: var(--close-button-hover-bg);
-***REMOVED***
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -88,12 +88,12 @@
 
     --close-button-bg: #333333;
     --close-button-hover-bg: #666666;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
 html, body {
     height: 100%;
-***REMOVED***
+}
 
 body {
     margin: 0;
@@ -102,7 +102,7 @@ body {
     font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
     color: var(--body-fg);
     background: var(--body-bg);
-***REMOVED***
+}
 
 /* LINKS */
 
@@ -110,73 +110,73 @@ a:link, a:visited {
     color: var(--link-fg);
     text-decoration: none;
     transition: color 0.15s, background 0.15s;
-***REMOVED***
+}
 
 a:focus, a:hover {
     color: var(--link-hover-color);
-***REMOVED***
+}
 
 a:focus {
     text-decoration: underline;
-***REMOVED***
+}
 
 a img {
     border: none;
-***REMOVED***
+}
 
 a.section:link, a.section:visited {
     color: var(--header-link-color);
     text-decoration: none;
-***REMOVED***
+}
 
 a.section:focus, a.section:hover {
     text-decoration: underline;
-***REMOVED***
+}
 
 /* GLOBAL DEFAULTS */
 
 p, ol, ul, dl {
     margin: .2em 0 .8em 0;
-***REMOVED***
+}
 
 p {
     padding: 0;
     line-height: 140%;
-***REMOVED***
+}
 
 h1,h2,h3,h4,h5 {
     font-weight: bold;
-***REMOVED***
+}
 
 h1 {
     margin: 0 0 20px;
     font-weight: 300;
     font-size: 20px;
     color: var(--body-quiet-color);
-***REMOVED***
+}
 
 h2 {
     font-size: 16px;
     margin: 1em 0 .5em 0;
-***REMOVED***
+}
 
 h2.subhead {
     font-weight: normal;
     margin-top: 0;
-***REMOVED***
+}
 
 h3 {
     font-size: 14px;
     margin: .8em 0 .3em 0;
     color: var(--body-quiet-color);
     font-weight: bold;
-***REMOVED***
+}
 
 h4 {
     font-size: 12px;
     margin: 1em 0 .8em 0;
     padding-bottom: 3px;
-***REMOVED***
+}
 
 h5 {
     font-size: 10px;
@@ -184,35 +184,35 @@ h5 {
     color: var(--body-quiet-color);
     text-transform: uppercase;
     letter-spacing: 1px;
-***REMOVED***
+}
 
 ul > li {
     list-style-type: square;
     padding: 1px 0;
-***REMOVED***
+}
 
 li ul {
     margin-bottom: 0;
-***REMOVED***
+}
 
 li, dt, dd {
     font-size: 13px;
     line-height: 20px;
-***REMOVED***
+}
 
 dt {
     font-weight: bold;
     margin-top: 4px;
-***REMOVED***
+}
 
 dd {
     margin-left: 0;
-***REMOVED***
+}
 
 form {
     margin: 0;
     padding: 0;
-***REMOVED***
+}
 
 fieldset {
     margin: 0;
@@ -220,7 +220,7 @@ fieldset {
     padding: 0;
     border: none;
     border-top: 1px solid var(--hairline-color);
-***REMOVED***
+}
 
 blockquote {
     font-size: 11px;
@@ -228,24 +228,24 @@ blockquote {
     margin-left: 2px;
     padding-left: 10px;
     border-left: 5px solid #ddd;
-***REMOVED***
+}
 
 code, pre {
     font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
     color: var(--body-quiet-color);
     font-size: 12px;
     overflow-x: auto;
-***REMOVED***
+}
 
 pre.literal-block {
     margin: 10px;
     background: var(--darkened-bg);
     padding: 6px 8px;
-***REMOVED***
+}
 
 code strong {
     color: #930;
-***REMOVED***
+}
 
 hr {
     clear: both;
@@ -257,58 +257,58 @@ hr {
     padding: 0;
     font-size: 1px;
     line-height: 1px;
-***REMOVED***
+}
 
 /* TEXT STYLES & MODIFIERS */
 
 .small {
     font-size: 11px;
-***REMOVED***
+}
 
 .mini {
     font-size: 10px;
-***REMOVED***
+}
 
 .help, p.help, form p.help, div.help, form div.help, div.help li {
     font-size: 11px;
     color: var(--body-quiet-color);
-***REMOVED***
+}
 
 div.help ul {
      margin-bottom: 0;
-***REMOVED***
+}
 
 .help-tooltip {
     cursor: help;
-***REMOVED***
+}
 
 p img, h1 img, h2 img, h3 img, h4 img, td img {
     vertical-align: middle;
-***REMOVED***
+}
 
 .quiet, a.quiet:link, a.quiet:visited {
     color: var(--body-quiet-color);
     font-weight: normal;
-***REMOVED***
+}
 
 .clear {
     clear: both;
-***REMOVED***
+}
 
 .nowrap {
     white-space: nowrap;
-***REMOVED***
+}
 
 .hidden {
     display: none;
-***REMOVED***
+}
 
 /* TABLES */
 
 table {
     border-collapse: collapse;
     border-color: var(--border-color);
-***REMOVED***
+}
 
 td, th {
     font-size: 13px;
@@ -316,12 +316,12 @@ td, th {
     border-bottom: 1px solid var(--hairline-color);
     vertical-align: top;
     padding: 8px;
-***REMOVED***
+}
 
 th {
     font-weight: 600;
     text-align: left;
-***REMOVED***
+}
 
 thead th,
 tfoot td {
@@ -332,31 +332,31 @@ tfoot td {
     border: none;
     border-top: 1px solid var(--hairline-color);
     border-bottom: 1px solid var(--hairline-color);
-***REMOVED***
+}
 
 tfoot td {
     border-bottom: none;
     border-top: 1px solid var(--hairline-color);
-***REMOVED***
+}
 
 thead th.required {
     color: var(--body-loud-color);
-***REMOVED***
+}
 
 tr.alt {
     background: var(--darkened-bg);
-***REMOVED***
+}
 
 tr:nth-child(odd), .row-form-errors {
     background: var(--body-bg);
-***REMOVED***
+}
 
 tr:nth-child(even),
 tr:nth-child(even) .errorlist,
 tr:nth-child(odd) + .row-form-errors,
 tr:nth-child(odd) + .row-form-errors .errorlist {
     background: var(--darkened-bg);
-***REMOVED***
+}
 
 /* SORTABLE TABLES */
 
@@ -365,49 +365,49 @@ thead th {
     line-height: normal;
     text-transform: uppercase;
     background: var(--darkened-bg);
-***REMOVED***
+}
 
 thead th a:link, thead th a:visited {
     color: var(--body-quiet-color);
-***REMOVED***
+}
 
 thead th.sorted {
     background: var(--selected-bg);
-***REMOVED***
+}
 
 thead th.sorted .text {
     padding-right: 42px;
-***REMOVED***
+}
 
 table thead th .text span {
     padding: 8px 10px;
     display: block;
-***REMOVED***
+}
 
 table thead th .text a {
     display: block;
     cursor: pointer;
     padding: 8px 10px;
-***REMOVED***
+}
 
 table thead th .text a:focus, table thead th .text a:hover {
     background: var(--selected-bg);
-***REMOVED***
+}
 
 thead th.sorted a.sortremove {
     visibility: hidden;
-***REMOVED***
+}
 
 table thead th.sorted:hover a.sortremove {
     visibility: visible;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions {
     display: block;
     padding: 9px 5px 0 5px;
     float: right;
     text-align: right;
-***REMOVED***
+}
 
 table thead th.sorted .sortpriority {
     font-size: .8em;
@@ -416,7 +416,7 @@ table thead th.sorted .sortpriority {
     vertical-align: 3px;
     margin-left: 2px;
     margin-right: 2px;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a {
     position: relative;
@@ -425,11 +425,11 @@ table thead th.sorted .sortoptions a {
     display: inline-block;
     background: url(../img/sorting-icons.svg) 0 0 no-repeat;
     background-size: 14px auto;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.sortremove {
     background-position: 0 0;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.sortremove:after {
     content: '\\';
@@ -439,36 +439,36 @@ table thead th.sorted .sortoptions a.sortremove:after {
     font-weight: 200;
     font-size: 18px;
     color: var(--body-quiet-color);
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.sortremove:focus:after,
 table thead th.sorted .sortoptions a.sortremove:hover:after {
     color: var(--link-fg);
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.sortremove:focus,
 table thead th.sorted .sortoptions a.sortremove:hover {
     background-position: 0 -14px;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.ascending {
     background-position: 0 -28px;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.ascending:focus,
 table thead th.sorted .sortoptions a.ascending:hover {
     background-position: 0 -42px;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.descending {
     top: 1px;
     background-position: 0 -56px;
-***REMOVED***
+}
 
 table thead th.sorted .sortoptions a.descending:focus,
 table thead th.sorted .sortoptions a.descending:hover {
     background-position: 0 -70px;
-***REMOVED***
+}
 
 /* FORM DEFAULTS */
 
@@ -479,44 +479,44 @@ input, textarea, select, .form-row p, form .button {
     font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
     font-weight: normal;
     font-size: 13px;
-***REMOVED***
+}
 .form-row div.help {
     padding: 2px 3px;
-***REMOVED***
+}
 
 textarea {
     vertical-align: top;
-***REMOVED***
+}
 
-input[type=text***REMOVED***, input[type=password***REMOVED***, input[type=email***REMOVED***, input[type=url***REMOVED***,
-input[type=number***REMOVED***, input[type=tel***REMOVED***, textarea, select, .vTextField {
+input[type=text], input[type=password], input[type=email], input[type=url],
+input[type=number], input[type=tel], textarea, select, .vTextField {
     border: 1px solid var(--border-color);
     border-radius: 4px;
     padding: 5px 6px;
     margin-top: 0;
     color: var(--body-fg);
     background-color: var(--body-bg);
-***REMOVED***
+}
 
-input[type=text***REMOVED***:focus, input[type=password***REMOVED***:focus, input[type=email***REMOVED***:focus,
-input[type=url***REMOVED***:focus, input[type=number***REMOVED***:focus, input[type=tel***REMOVED***:focus,
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
+input[type=url]:focus, input[type=number]:focus, input[type=tel]:focus,
 textarea:focus, select:focus, .vTextField:focus {
     border-color: var(--body-quiet-color);
-***REMOVED***
+}
 
 select {
     height: 30px;
-***REMOVED***
+}
 
-select[multiple***REMOVED*** {
+select[multiple] {
     /* Allow HTML size attribute to override the height in the rule above. */
     height: auto;
     min-height: 150px;
-***REMOVED***
+}
 
 /* FORM BUTTONS */
 
-.button, input[type=submit***REMOVED***, input[type=button***REMOVED***, .submit-row input, a.button {
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
     background: var(--button-bg);
     padding: 10px 15px;
     border: none;
@@ -524,40 +524,40 @@ select[multiple***REMOVED*** {
     color: var(--button-fg);
     cursor: pointer;
     transition: background 0.15s;
-***REMOVED***
+}
 
 a.button {
     padding: 4px 5px;
-***REMOVED***
+}
 
-.button:active, input[type=submit***REMOVED***:active, input[type=button***REMOVED***:active,
-.button:focus, input[type=submit***REMOVED***:focus, input[type=button***REMOVED***:focus,
-.button:hover, input[type=submit***REMOVED***:hover, input[type=button***REMOVED***:hover {
+.button:active, input[type=submit]:active, input[type=button]:active,
+.button:focus, input[type=submit]:focus, input[type=button]:focus,
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
     background: var(--button-hover-bg);
-***REMOVED***
+}
 
-.button[disabled***REMOVED***, input[type=submit***REMOVED***[disabled***REMOVED***, input[type=button***REMOVED***[disabled***REMOVED*** {
+.button[disabled], input[type=submit][disabled], input[type=button][disabled] {
     opacity: 0.4;
-***REMOVED***
+}
 
-.button.default, input[type=submit***REMOVED***.default, .submit-row input.default {
+.button.default, input[type=submit].default, .submit-row input.default {
     float: right;
     border: none;
     font-weight: 400;
     background: var(--default-button-bg);
-***REMOVED***
+}
 
-.button.default:active, input[type=submit***REMOVED***.default:active,
-.button.default:focus, input[type=submit***REMOVED***.default:focus,
-.button.default:hover, input[type=submit***REMOVED***.default:hover {
+.button.default:active, input[type=submit].default:active,
+.button.default:focus, input[type=submit].default:focus,
+.button.default:hover, input[type=submit].default:hover {
     background: var(--default-button-hover-bg);
-***REMOVED***
+}
 
-.button[disabled***REMOVED***.default,
-input[type=submit***REMOVED***[disabled***REMOVED***.default,
-input[type=button***REMOVED***[disabled***REMOVED***.default {
+.button[disabled].default,
+input[type=submit][disabled].default,
+input[type=button][disabled].default {
     opacity: 0.4;
-***REMOVED***
+}
 
 
 /* MODULES */
@@ -566,24 +566,24 @@ input[type=button***REMOVED***[disabled***REMOVED***.default {
     border: none;
     margin-bottom: 30px;
     background: var(--body-bg);
-***REMOVED***
+}
 
 .module p, .module ul, .module h3, .module h4, .module dl, .module pre {
     padding-left: 10px;
     padding-right: 10px;
-***REMOVED***
+}
 
 .module blockquote {
     margin-left: 12px;
-***REMOVED***
+}
 
 .module ul, .module ol {
     margin-left: 1.5em;
-***REMOVED***
+}
 
 .module h3 {
     margin-top: .6em;
-***REMOVED***
+}
 
 .module h2, .module caption, .inline-group h2 {
     margin: 0;
@@ -593,25 +593,25 @@ input[type=button***REMOVED***[disabled***REMOVED***.default {
     text-align: left;
     background: var(--primary);
     color: var(--header-link-color);
-***REMOVED***
+}
 
 .module caption,
 .inline-group h2 {
     font-size: 12px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-***REMOVED***
+}
 
 .module table {
     border-collapse: collapse;
-***REMOVED***
+}
 
 /* MESSAGES & ERRORS */
 
 ul.messagelist {
     padding: 0;
     margin: 0;
-***REMOVED***
+}
 
 ul.messagelist li {
     display: block;
@@ -622,17 +622,17 @@ ul.messagelist li {
     background: var(--message-success-bg) url(../img/icon-yes.svg) 40px 12px no-repeat;
     background-size: 16px auto;
     color: var(--body-fg);
-***REMOVED***
+}
 
 ul.messagelist li.warning {
     background: var(--message-warning-bg) url(../img/icon-alert.svg) 40px 14px no-repeat;
     background-size: 14px auto;
-***REMOVED***
+}
 
 ul.messagelist li.error {
     background: var(--message-error-bg) url(../img/icon-no.svg) 40px 12px no-repeat;
     background-size: 16px auto;
-***REMOVED***
+}
 
 .errornote {
     font-size: 14px;
@@ -646,60 +646,60 @@ ul.messagelist li.error {
     background-color: var(--body-bg);
     background-position: 5px 12px;
     overflow-wrap: break-word;
-***REMOVED***
+}
 
 ul.errorlist {
     margin: 0 0 4px;
     padding: 0;
     color: var(--error-fg);
     background: var(--body-bg);
-***REMOVED***
+}
 
 ul.errorlist li {
     font-size: 13px;
     display: block;
     margin-bottom: 4px;
     overflow-wrap: break-word;
-***REMOVED***
+}
 
 ul.errorlist li:first-child {
     margin-top: 0;
-***REMOVED***
+}
 
 ul.errorlist li a {
     color: inherit;
     text-decoration: underline;
-***REMOVED***
+}
 
 td ul.errorlist {
     margin: 0;
     padding: 0;
-***REMOVED***
+}
 
 td ul.errorlist li {
     margin: 0;
-***REMOVED***
+}
 
 .form-row.errors {
     margin: 0;
     border: none;
     border-bottom: 1px solid var(--hairline-color);
     background: none;
-***REMOVED***
+}
 
 .form-row.errors ul.errorlist li {
     padding-left: 0;
-***REMOVED***
+}
 
 .errors input, .errors select, .errors textarea,
 td ul.errorlist + input, td ul.errorlist + select, td ul.errorlist + textarea {
     border: 1px solid var(--error-fg);
-***REMOVED***
+}
 
 .description {
     font-size: 12px;
     padding: 5px 0 0 12px;
-***REMOVED***
+}
 
 /* BREADCRUMBS */
 
@@ -709,46 +709,46 @@ div.breadcrumbs {
     border: none;
     color: var(--breadcrumbs-fg);
     text-align: left;
-***REMOVED***
+}
 
 div.breadcrumbs a {
     color: var(--breadcrumbs-link-fg);
-***REMOVED***
+}
 
 div.breadcrumbs a:focus, div.breadcrumbs a:hover {
     color: var(--breadcrumbs-fg);
-***REMOVED***
+}
 
 /* ACTION ICONS */
 
 .viewlink, .inlineviewlink {
     padding-left: 16px;
     background: url(../img/icon-viewlink.svg) 0 1px no-repeat;
-***REMOVED***
+}
 
 .addlink {
     padding-left: 16px;
     background: url(../img/icon-addlink.svg) 0 1px no-repeat;
-***REMOVED***
+}
 
 .changelink, .inlinechangelink {
     padding-left: 16px;
     background: url(../img/icon-changelink.svg) 0 1px no-repeat;
-***REMOVED***
+}
 
 .deletelink {
     padding-left: 16px;
     background: url(../img/icon-deletelink.svg) 0 1px no-repeat;
-***REMOVED***
+}
 
 a.deletelink:link, a.deletelink:visited {
     color: #CC3434; /* XXX Probably unused? */
-***REMOVED***
+}
 
 a.deletelink:focus, a.deletelink:hover {
     color: #993333; /* XXX Probably unused? */
     text-decoration: none;
-***REMOVED***
+}
 
 /* OBJECT TOOLS */
 
@@ -759,18 +759,18 @@ a.deletelink:focus, a.deletelink:hover {
     float: right;
     position: relative;
     margin-top: -48px;
-***REMOVED***
+}
 
 .object-tools li {
     display: block;
     float: left;
     margin-left: 5px;
     height: 16px;
-***REMOVED***
+}
 
 .object-tools a {
     border-radius: 15px;
-***REMOVED***
+}
 
 .object-tools a:link, .object-tools a:visited {
     display: block;
@@ -782,39 +782,39 @@ a.deletelink:focus, a.deletelink:hover {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-***REMOVED***
+}
 
 .object-tools a:focus, .object-tools a:hover {
     background-color: var(--object-tools-hover-bg);
-***REMOVED***
+}
 
 .object-tools a:focus{
     text-decoration: none;
-***REMOVED***
+}
 
 .object-tools a.viewsitelink, .object-tools a.addlink {
     background-repeat: no-repeat;
     background-position: right 7px center;
     padding-right: 26px;
-***REMOVED***
+}
 
 .object-tools a.viewsitelink {
     background-image: url(../img/tooltag-arrowright.svg);
-***REMOVED***
+}
 
 .object-tools a.addlink {
     background-image: url(../img/tooltag-add.svg);
-***REMOVED***
+}
 
 /* OBJECT HISTORY */
 
 table#change-history {
     width: 100%;
-***REMOVED***
+}
 
 table#change-history tbody th {
     width: 16em;
-***REMOVED***
+}
 
 /* PAGE STRUCTURE */
 
@@ -826,70 +826,70 @@ table#change-history tbody th {
     display: flex;
     flex-direction: column;
     height: 100%;
-***REMOVED***
+}
 
 #container > div {
     flex-shrink: 0;
-***REMOVED***
+}
 
 #container > .main {
     display: flex;
     flex: 1 0 auto;
-***REMOVED***
+}
 
 .main > .content {
     flex:  1 0;
     max-width: 100%;
-***REMOVED***
+}
 
 #content {
     padding: 20px 40px;
-***REMOVED***
+}
 
 .dashboard #content {
     width: 600px;
-***REMOVED***
+}
 
 #content-main {
     float: left;
     width: 100%;
-***REMOVED***
+}
 
 #content-related {
     float: right;
     width: 260px;
     position: relative;
     margin-right: -300px;
-***REMOVED***
+}
 
 #footer {
     clear: both;
     padding: 10px;
-***REMOVED***
+}
 
 /* COLUMN TYPES */
 
 .colMS {
     margin-right: 300px;
-***REMOVED***
+}
 
 .colSM {
     margin-left: 300px;
-***REMOVED***
+}
 
 .colSM #content-related {
     float: left;
     margin-right: 0;
     margin-left: -300px;
-***REMOVED***
+}
 
 .colSM #content-main {
     float: right;
-***REMOVED***
+}
 
 .popup .colM {
     width: auto;
-***REMOVED***
+}
 
 /* HEADER */
 
@@ -903,19 +903,19 @@ table#change-history tbody th {
     background: var(--header-bg);
     color: var(--header-color);
     overflow: hidden;
-***REMOVED***
+}
 
 #header a:link, #header a:visited {
     color: var(--header-link-color);
-***REMOVED***
+}
 
 #header a:focus , #header a:hover {
     text-decoration: underline;
-***REMOVED***
+}
 
 #branding {
     float: left;
-***REMOVED***
+}
 
 #branding h1 {
     padding: 0;
@@ -923,11 +923,11 @@ table#change-history tbody th {
     font-weight: 300;
     font-size: 24px;
     color: var(--accent);
-***REMOVED***
+}
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
     color: var(--accent);
-***REMOVED***
+}
 
 #branding h2 {
     padding: 0 10px;
@@ -935,11 +935,11 @@ table#change-history tbody th {
     margin: -8px 0 8px 0;
     font-weight: normal;
     color: var(--header-color);
-***REMOVED***
+}
 
 #branding a:hover {
     text-decoration: none;
-***REMOVED***
+}
 
 #user-tools {
     float: right;
@@ -950,53 +950,53 @@ table#change-history tbody th {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     text-align: right;
-***REMOVED***
+}
 
 #user-tools a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-***REMOVED***
+}
 
 #user-tools a:focus, #user-tools a:hover {
     text-decoration: none;
     border-bottom-color: var(--primary);
     color: var(--primary);
-***REMOVED***
+}
 
 /* SIDEBAR */
 
 #content-related {
     background: var(--darkened-bg);
-***REMOVED***
+}
 
 #content-related .module {
     background: none;
-***REMOVED***
+}
 
 #content-related h3 {
     color: var(--body-quiet-color);
     padding: 0 16px;
     margin: 0 0 16px;
-***REMOVED***
+}
 
 #content-related h4 {
     font-size: 13px;
-***REMOVED***
+}
 
 #content-related p {
     padding-left: 16px;
     padding-right: 16px;
-***REMOVED***
+}
 
 #content-related .actionlist {
     padding: 0;
     margin: 16px;
-***REMOVED***
+}
 
 #content-related .actionlist li {
     line-height: 1.2;
     margin-bottom: 10px;
     padding-left: 18px;
-***REMOVED***
+}
 
 #content-related .module h2 {
     background: none;
@@ -1005,20 +1005,20 @@ table#change-history tbody th {
     border-bottom: 1px solid var(--hairline-color);
     font-size: 18px;
     color: var(--body-fg);
-***REMOVED***
+}
 
-.delete-confirmation form input[type="submit"***REMOVED*** {
+.delete-confirmation form input[type="submit"] {
     background: var(--delete-button-bg);
     border-radius: 4px;
     padding: 10px 15px;
     color: var(--button-fg);
-***REMOVED***
+}
 
-.delete-confirmation form input[type="submit"***REMOVED***:active,
-.delete-confirmation form input[type="submit"***REMOVED***:focus,
-.delete-confirmation form input[type="submit"***REMOVED***:hover {
+.delete-confirmation form input[type="submit"]:active,
+.delete-confirmation form input[type="submit"]:focus,
+.delete-confirmation form input[type="submit"]:hover {
     background: var(--delete-button-hover-bg);
-***REMOVED***
+}
 
 .delete-confirmation form .cancel-link {
     display: inline-block;
@@ -1030,23 +1030,23 @@ table#change-history tbody th {
     color: var(--button-fg);
     background: var(--close-button-bg);
     margin: 0 0 0 10px;
-***REMOVED***
+}
 
 .delete-confirmation form .cancel-link:active,
 .delete-confirmation form .cancel-link:focus,
 .delete-confirmation form .cancel-link:hover {
     background: var(--close-button-hover-bg);
-***REMOVED***
+}
 
 /* POPUP */
 .popup #content {
     padding: 20px;
-***REMOVED***
+}
 
 .popup #container {
     min-width: 0;
-***REMOVED***
+}
 
 .popup #header {
     padding: 10px 20px;
-***REMOVED***
+}

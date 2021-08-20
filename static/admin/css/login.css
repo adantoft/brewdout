@@ -3,25 +3,25 @@
 .login {
     background: var(--darkened-bg);
     height: auto;
-***REMOVED***
+}
 
 .login #header {
     height: auto;
     padding: 15px 16px;
     justify-content: center;
-***REMOVED***
+}
 
 .login #header h1 {
     font-size: 18px;
-***REMOVED***
+}
 
 .login #header h1 a {
     color: var(--header-link-color);
-***REMOVED***
+}
 
 .login #content {
     padding: 20px 20px 0;
-***REMOVED***
+}
 
 .login #container {
     background: var(--body-bg);
@@ -32,29 +32,29 @@
     min-width: 300px;
     margin: 100px auto;
     height: auto;
-***REMOVED***
+}
 
 .login .form-row {
     padding: 4px 0;
-***REMOVED***
+}
 
 .login .form-row label {
     display: block;
     line-height: 2em;
-***REMOVED***
+}
 
 .login .form-row #id_username, .login .form-row #id_password {
     padding: 8px;
     width: 100%;
     box-sizing: border-box;
-***REMOVED***
+}
 
 .login .submit-row {
     padding: 1em 0 0 0;
     margin: 0;
     text-align: center;
-***REMOVED***
+}
 
 .login .password-reset-link {
     text-align: center;
-***REMOVED***
+}

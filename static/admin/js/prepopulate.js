@@ -18,26 +18,26 @@
                 // Bail if the field's value has been changed by the user
                 if (prepopulatedField.data('_changed')) {
                     return;
-            ***REMOVED***
+                }
 
-                const values = [***REMOVED***;
+                const values = [];
                 $.each(dependencies, function(i, field) {
                     field = $(field);
                     if (field.val().length > 0) {
                         values.push(field.val());
-                ***REMOVED***
-            ***REMOVED***);
+                    }
+                });
                 prepopulatedField.val(URLify(values.join(' '), maxLength, allowUnicode));
-        ***REMOVED***;
+            };
 
             prepopulatedField.data('_changed', false);
             prepopulatedField.on('change', function() {
                 prepopulatedField.data('_changed', true);
-        ***REMOVED***);
+            });
 
             if (!prepopulatedField.val()) {
                 $(dependencies.join(',')).on('keyup change focus', populate);
-        ***REMOVED***
-    ***REMOVED***);
-***REMOVED***;
-***REMOVED***
+            }
+        });
+    };
+}

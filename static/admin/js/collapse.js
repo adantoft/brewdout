@@ -4,7 +4,7 @@
     window.addEventListener('load', function() {
         // Add anchor tag for Show/Hide link
         const fieldsets = document.querySelectorAll('fieldset.collapse');
-        for (const [i, elem***REMOVED*** of fieldsets.entries()) {
+        for (const [i, elem] of fieldsets.entries()) {
             // Don't hide if fields in this fieldset have errors
             if (elem.querySelectorAll('div.errors, ul.errorlist').length === 0) {
                 elem.classList.add('collapsed');
@@ -17,8 +17,8 @@
                 h2.appendChild(document.createTextNode(' ('));
                 h2.appendChild(link);
                 h2.appendChild(document.createTextNode(')'));
-        ***REMOVED***
-    ***REMOVED***
+            }
+        }
         // Add toggle to hide/show anchor tag
         const toggleFunc = function(ev) {
             if (ev.target.matches('.collapse-toggle')) {
@@ -29,15 +29,15 @@
                     // Show
                     ev.target.textContent = gettext('Hide');
                     fieldset.classList.remove('collapsed');
-            ***REMOVED*** else {
+                } else {
                     // Hide
                     ev.target.textContent = gettext('Show');
                     fieldset.classList.add('collapsed');
-            ***REMOVED***
-        ***REMOVED***
-    ***REMOVED***;
+                }
+            }
+        };
         document.querySelectorAll('fieldset.module').forEach(function(el) {
             el.addEventListener('click', toggleFunc);
-    ***REMOVED***);
-***REMOVED***);
-***REMOVED***
+        });
+    });
+}

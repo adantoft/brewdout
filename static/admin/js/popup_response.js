@@ -12,5 +12,5 @@
     default:
         opener.dismissAddRelatedObjectPopup(window, initData.value, initData.obj);
         break;
-***REMOVED***
-***REMOVED***
+    }
+}
