@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.timezone import now
 
 class Brewery(models.Model):
   name = models.CharField(max_length=100)
@@ -22,8 +23,11 @@ class Check_in(models.Model):
   COST_CHOICES = [(1,'$'),(2,'$$'),(3,'$$$'),(4,'$$$$'),(5,'$$$$$')] #todo add explaination values to form
   #who todo implement when understanding users better
   beverage = models.ForeignKey(Beverage, on_delete=models.PROTECT) #todo make dropdown
-  submission_date = models.DateTimeField()
-  rating = models.CharField(max_length=10, choices=RATING_CHOICES)
-  cost = models.CharField(max_length=5, choices=COST_CHOICES)
+  submission_date = models.DateField(default=now)
+  rating = models.IntegerField(choices=RATING_CHOICES)
+  cost = models.IntegerField(choices=COST_CHOICES)
   tasting_notes = models.CharField(max_length=1000)
+
+  def __str__(self):
+    return (str(self.submission_date) + ' | ' + self.beverage.name) #todo add who submitted
   

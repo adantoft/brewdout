@@ -1,0 +1,70 @@
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+  table.GeneratedTable {
+    width: 80%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+  }
+
+  table.GeneratedTable td,
+  table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 4px;
+  }
+
+  table.GeneratedTable thead {
+    background-color: #6983b5;
+  }
+</style>
+
+<h2>Beverages</h2>
+<table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Bevvy Name</th>
+      <th>Brewery</th>
+      <th>Style</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for beverage in beverages %}
+    <tr>
+      <td><a href="{% url 'beverage_detail' beverage.id %}"> {{beverage.name|capfirst}}</a></td>
+      <td>{{beverage.brewery}}</td>
+      <td>{{beverage.style}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Check-ins</h2>
+<table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Submissions Date</th>
+      <th>Drinker</th>
+      <th>Beverage</th>
+      <th>Rating</th>
+      <th>Cost</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for check_in in check_ins %}
+    <tr>
+      <td><a href="{% url 'beverage_detail' check_in.id %}"> {{check_in.submission_date|date:"M d Y"}}</a></td>
+      <td>Three Sheets</td>
+      <td>{{check_in.beverage}}</td>
+      <td>{{check_in.rating}}</td>
+      <td>{{check_in.cost}}</td>
+      <td>{{check_in.tasting_notes}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
